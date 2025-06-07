@@ -1,7 +1,5 @@
 # 🧾 3. MIME Types & HTTP Headers – Metadata & File Handling
 
-## 🔸 Overview:
-
 When a browser receives a response, it uses headers—especially MIME types—to decide how to interpret the body content. Headers also affect security and caching.
 
 ### 🧩 MIME Types (Multipurpose Internet Mail Extensions):
