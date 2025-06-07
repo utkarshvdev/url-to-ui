@@ -1,7 +1,7 @@
 # 🌐 DNS, TCP, and HTTPS – The First Steps of Loading a Web Page
 
 
-## 🔹 1. What Happens When You Enter a URL?
+### 🔹 1. What Happens When You Enter a URL?
 
 
 When you type a URL like `https://github.com`, the browser doesn't directly know the IP address of the server. It needs to:
@@ -15,7 +15,7 @@ When you type a URL like `https://github.com`, the browser doesn't directly know
 ---
 
 
-## 🧭 2. DNS (Domain Name System)
+### 🧭 2. DNS (Domain Name System)
 
 - Maps human-readable domains to IP addresses.
 - Uses recursive resolvers, root servers, TLD servers, and authoritative name servers.
@@ -31,7 +31,7 @@ When you type a URL like `https://github.com`, the browser doesn't directly know
 
 ---
 
-## 🔗 3. TCP (Transmission Control Protocol)
+### 🔗 3. TCP (Transmission Control Protocol)
 
 - A reliable transport protocol (3-way handshake)
 - Steps:
@@ -42,7 +42,7 @@ When you type a URL like `https://github.com`, the browser doesn't directly know
 
 ---
 
-## 🔐 4. HTTPS (TLS/SSL Layer)
+### 🔐 4. HTTPS (TLS/SSL Layer)
 
 - HTTPS = HTTP over TLS (formerly SSL)
 - Ensures data is:
@@ -57,7 +57,7 @@ When you type a URL like `https://github.com`, the browser doesn't directly know
 
 ---
 
-## 📌 Summary Flow
+### 📌 Summary Flow
 
 ```text
 URL ➝ DNS ➝ IP ➝ TCP ➝ TLS ➝ Secure Connection Ready
