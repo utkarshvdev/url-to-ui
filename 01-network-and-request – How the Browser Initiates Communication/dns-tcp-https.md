@@ -1,14 +1,14 @@
-### 🌐 1. DNS → TCP → HTTPS – From URL to Connection
+# 🌐 1. DNS → TCP → HTTPS – From URL to Connection
 
-🔸 Overview:
+### 🔸 Overview:
 
 When a user types a URL like https://github.com into the browser, several network-level operations occur before the browser even requests the content. This section dives deep into that journey.
 
 
-## 🧩 Step-by-Step Breakdown:
+### 🧩 Step-by-Step Breakdown:
 
 
-## 1. DNS Resolution (Domain to IP)
+### 1. DNS Resolution (Domain to IP)
 
 - The browser checks the local cache → OS cache → router cache → ISP DNS cache → authoritative DNS servers.
 
@@ -25,7 +25,7 @@ github.com
 ```
 
 
-## 2. TCP Handshake (3-Way Connection Setup)
+### 2. TCP Handshake (3-Way Connection Setup)
 
 - Occurs on port 80 (HTTP) or 443 (HTTPS).
 
@@ -45,7 +45,7 @@ Client: ➝ ACK
 
 This handshake establishes a socket (connection ID) between client and server.
 
-## 3. TLS Handshake (Secure the Channel)
+### 3. TLS Handshake (Secure the Channel)
 
 (i) - Starts with ClientHello: Cipher suites, TLS version, and random number.
 
@@ -68,8 +68,8 @@ ClientHello → ServerHello
 
 ✅ Key Takeaways:
 
- DNS translates names to IPs.
+ - DNS translates names to IPs.
 
- TCP ensures ordered delivery.
+ - TCP ensures ordered delivery.
 
- TLS protects confidentiality and authenticity.
+ - TLS protects confidentiality and authenticity.
