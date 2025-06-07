@@ -1,7 +1,7 @@
-## 📡 2. HTTP Request & Response – Communicating with the Server
+# 📡 2. HTTP Request & Response – Communicating with the Server
 
 
-## 🧩 Request Lifecycle:
+### 🧩 Request Lifecycle:
 
 (i) - Request: GET /index.html HTTP/1.1
 
@@ -17,7 +17,7 @@ Accept: text/html
 ```
 
 
-## 🧩 Response Lifecycle:
+### 🧩 Response Lifecycle:
 
 (i) - Status: HTTP/1.1 200 OK
 
@@ -33,7 +33,7 @@ Set-Cookie: theme=dark; Path=/
 <html>...</html>
 ```
 
-## 📌 Connection Reuse:
+### 📌 Connection Reuse:
 
 HTTP/1.1 supports Keep-Alive by default.
 
