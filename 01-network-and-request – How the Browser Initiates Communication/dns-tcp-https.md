@@ -1,7 +1,5 @@
 # 🌐 1. DNS → TCP → HTTPS – From URL to Connection
 
-### 🔸 Overview:
-
 When a user types a URL like https://github.com into the browser, several network-level operations occur before the browser even requests the content. This section dives deep into that journey.
 
 
