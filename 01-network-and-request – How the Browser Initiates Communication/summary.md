@@ -1,8 +1,11 @@
 # 🌐 DNS, TCP, and HTTPS – The First Steps of Loading a Web Page
 
+
 ## 🔹 1. What Happens When You Enter a URL?
 
-When you type a URL like `https://example.com`, the browser doesn't directly know the IP address of the server. It needs to:
+
+When you type a URL like `https://github.com`, the browser doesn't directly know the IP address of the server. It needs to:
+
 
 1. **Resolve the domain** (DNS)
 2. **Establish a connection** (TCP)
@@ -10,6 +13,7 @@ When you type a URL like `https://example.com`, the browser doesn't directly kno
 4. Then send the HTTP request
 
 ---
+
 
 ## 🧭 2. DNS (Domain Name System)
 
@@ -20,8 +24,10 @@ When you type a URL like `https://example.com`, the browser doesn't directly kno
   - By the browser
   - By your ISP's DNS server
 
+```
 **Example:**  
-`example.com` ➝ `93.184.216.34`
+`github.com` ➝ `140.82.121.3`
+```
 
 ---
 
