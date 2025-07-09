@@ -1,4 +1,4 @@
-# 📘 Summary – Module 5: Performance and GPU
+# 📘 Summary – Module 4: Performance and GPU
 
 This module explores how browsers optimize rendering by minimizing layout and paint costs and leveraging GPU acceleration.
 
