@@ -27,7 +27,8 @@ This repository breaks down each step the browser takes to transform a web addre
 | 02 | Parsing | HTML/CSS/JS → DOM, CSSOM |
 | 03 | Render Pipeline | Render Tree, Layout, Paint, Composite |
 | 04 | Performance & GPU | Reflow, Repaint, GPU layers |
-| 05 | Polyfills | Compatibility with older browsers |
+| 05 | JS Engine | Call Stack, Event Loop, Async/Await |
+| 06 | Polyfills | Compatibility with older browsers |
 
 ---
 
@@ -60,7 +61,15 @@ url-to-ui/
 │   ├── layers-and-gpu.md
 │   └── browser-optimizations.md
 │
-├── 05-polyfills-and-standards/          # 🧠 Bonus: JS Compatibility and Polyfills
+│
+├── 05-js-engine-and-event-loop/       # 🧠 Step 5: JavaScript Execution & Event Loop
+│   ├── js-engine-internals.md
+│   ├── callstack-and-memory.md
+│   ├── event-loop.md
+│   ├── async-behavior.md
+│   └── module-summary.md
+│
+├── 06-polyfills-and-standards/          # 🧠 Bonus: JS Compatibility and Polyfills
 │   ├── what-is-a-polyfill.md
 │   ├── common-polyfills.md
 │   ├── how-polyfills-work.md
