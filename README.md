@@ -19,7 +19,22 @@ This repository breaks down each step the browser takes to transform a web addre
 
 ---
 
-## 🗂️ Folder Structure
+## 🚀 What This Repo Covers
+
+| Module | Topic | Description |
+|--------|-------|-------------|
+| 01 | Network & Request | DNS, TCP, HTTP, Headers |
+| 02 | Parsing | HTML/CSS/JS → DOM, CSSOM |
+| 03 | Render Pipeline | Render Tree, Layout, Paint, Composite |
+| 04 | Performance & GPU | Reflow, Repaint, GPU layers |
+| 05 | Polyfills | Compatibility with older browsers |
+
+---
+
+## 📦 Folder-wise Structure
+
+Each folder contains detailed `.md` files and diagrams explaining the internals of browser mechanics. You can study these in order or jump to the part you're most interested in.
+
 
 ```bash
 url-to-ui/
@@ -51,15 +66,20 @@ url-to-ui/
 │   ├── how-polyfills-work.md
 │   └── es6-polyfill-examples.md
 │
-├── diagrams/                            # 📊 Visual Aids and Flowcharts
-│   ├── browser-flow.png
-│   ├── request-to-render-diagram.png
-│   └── parsing-to-ui-visual.svg
-│
-├── assets/                              # 🖼️ Branding + Images (GitHub preview etc.)
-│   ├── banner-url-to-ui.png
-│   └── fonts-icons-if-needed/
-│
 ├── README.md
 └── LICENSE
 
+
+---
+
+## 🧩 Who Should Use This?
+
+- Frontend developers preparing for interviews
+- Engineers building high-performance UIs
+- Curious learners who want to master browser internals
+
+---
+
+## 🙌 Contribute / Share
+
+Feel free to fork, star ⭐, and share with your dev community.
